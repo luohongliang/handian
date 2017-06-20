@@ -6,7 +6,7 @@ from collections import defaultdict
 
 # load in the configuration file
 from ConfigParser import ConfigParser as ConfigParser
-config_file = r"/home/hongliang/inpho/handian/compare/handian2and2mac/handian2.ini" 
+config_file = r"/home/hongliang/inpho/handian/handian2.ini" 
 config = ConfigParser({
         'topic_range': None,
         'topics': None,
